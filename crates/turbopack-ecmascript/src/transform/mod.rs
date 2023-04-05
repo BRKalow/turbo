@@ -169,6 +169,7 @@ impl EcmascriptInputTransform {
                     Some(comments.clone()),
                     config,
                     top_level_mark,
+                    unresolved_mark,
                 ));
             }
             EcmascriptInputTransform::CommonJs => {
